@@ -1,0 +1,193 @@
+body * {
+    font-family : "Roboto", sans-serif;
+    font-weight : 100;
+    font-size : 14px;
+}
+#nav-accueil{
+    text-align: center;
+    line-height: 80px;
+    text-transform: uppercase;
+    background-color: #3E3D88;
+}
+
+#temoignage{
+    background-color:#9E593F; 
+}
+.conteneur{
+    width : 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header-accueil.conteneur{
+    position : relative;
+}
+#connexion{
+    position : absolute ;
+    right :0px;
+    top : 0px;
+}
+#connexion input{
+    width : 250px;
+    border : 1px solid #3E3D88;
+    background-color: transparent;
+    display : block;
+    padding:8px;
+    margin-top : 20px;
+
+}
+#connexion input#Se-connecter{
+    border : none ;
+    background-color: #692F7A;
+    color : white;
+    padding : 8px;
+    border-radius : 5px 5px;
+}
+#nav-accueil a{
+    color : #FFFFFF ;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+#nav-accueil li{
+    display : inline-block;
+}
+#nav-accueil li::before {
+    content: ' | ';
+    color: white;
+    font-size: 1.3em;
+}
+#bienvenue{
+    background-image: url(../images/bamboo-blured.jpg);
+    height: 266px;
+    background-position: 0% 0%;
+    background-size: 100%;
+    background-repeat: repeat repeat;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-attachment: scroll;
+}
+#bienvenue h2{
+    color: white;
+    font-size: 4em;
+    text-transform: uppercase;
+    padding-bottom: 80px;
+    padding-top: 160px;
+    padding-left: 100px;
+}
+table{
+    width : 90%;
+    margin-bottom: 80px;
+    
+}
+caption {
+    color : #3E3D88;
+    font-size : 2em;
+    padding-top : 80px;
+    padding-bottom : 80px;
+}
+td{
+    font-size: 1.5em;
+    font-weight: 400;
+    color : #AAAAAA;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+tr+tr{
+    border-top: 2px solid #DDDDDD;
+}
+
+td+td{
+    color : #AAAAAA;
+    font-size: 1.5em;
+    width : 100px;
+    padding-right: 20px;
+    text-align: right;
+}
+td+td+td{
+    padding-right: 0px;
+    text-align: right;
+}
+#temoignage{
+    text-align: center;
+    color :white;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+#temoignage i{
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+#temoignage p{
+    margin-left: auto;
+    margin-right: auto;
+    width :60%;
+    font-size: 2em;
+    line-height: 1.5;
+}
+
+#description{
+    padding-top: 20px;
+}
+.col33{
+    width : 33%;
+    float :left;
+    
+    
+}
+.col33 i{
+    font-size : 5em;
+    color : #692F7A ;
+}
+.col33 p{
+    font-size : 1.4em;
+    line-height: 180%;
+}
+.col33 span{
+    font-size :2.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display : block;
+}
+#description .col33{    
+    box-shadow : 0 0 1px rgba(0,0,0,0);
+    background-color: white;
+    transition: all 1s ease;
+    transition-property: box-shadow,background-color;
+}
+#description .col33 :hover{
+    background-color: #EEEEEE;
+    border-radius: 10px 10px;
+    box-shadow: 0 20px 10px -10px rgba(0,0,0,0.2);
+}
+.clear{
+    clear : both;
+ }
+#pied-de-page {
+    height: 200px;
+    background-color: #7A3466;
+    color : white ;
+    padding-top :80px;
+}
+#pied-de-page a{
+    color : #FFFFFF ;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+#pied-de-page .col33{
+    margin-top : 40px;
+}
+#pied-de-page .col33 h4{
+    margin-bottom : 20px;
+}
+
+.row {
+    margin-bottom: 15px;
+}
+
+.row [class^="col-"] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid rgba(86,61,124,.2);
+}

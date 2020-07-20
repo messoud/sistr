@@ -1,0 +1,15 @@
+<?php
+namespace Sistr;
+    if(!defined('SISTR')) {throw new Error('Acces interdit');}
+/**
+ * Description of test
+ *
+ * @author 
+ */
+class TestForm extends \F3il\Form {
+    
+    public function __construct()
+    {
+        parent::__construct();
+    }
+}
